@@ -1,0 +1,424 @@
+<html dir="ltr" lang="pt" class="js-focus-visible translated-ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- v18115 -->
+
+    <title>Central de Ajuda</title>
+
+    <meta name="csrf-param" content="authenticity_token">
+    <meta name="csrf-token" content="">
+
+    <link rel="stylesheet" type="text/css" href="Stylesheets/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/SLlogo-dica.png">
+
+    <script type="text/javascript" src="Scripts/script.js"></script>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <script>
+      /**
+        * Returns URL of image
+        *
+        **/
+
+      function getAssetURLById(id) {
+        return {
+          blockIcon: window["assets" + id],
+          blockHoverIcon: window["assetsHover" + id]
+        }
+      }
+
+      /**
+        * sets the image url from assets id
+        *
+        **/
+      function setIcon(id) {
+        var icon = getAssetURLById(id);
+
+        if (icon.blockIcon != undefined) {
+          var blockIcon = $("." + id + '-block-icon');
+          var blockHoverIcon = $("." + id + '-block-hover-icon');
+          var blockFontIcon = $("." + id + '-block-font-icon');
+
+          if (icon.blockIcon.indexOf('fa') == 0) {
+            blockFontIcon.attr('class', icon.blockIcon);
+            blockIcon.parent().removeClass('hide');
+            blockFontIcon.removeClass('hide');
+            blockIcon.hide();
+            blockHoverIcon.hide();
+          } else {
+            blockIcon.attr('src', icon.blockIcon);
+            blockHoverIcon.attr('src', icon.blockHoverIcon);
+            blockIcon.parent().removeClass('hide');
+            blockFontIcon.hide();
+            blockIcon.removeClass('hide');
+            blockHoverIcon.removeClass('hide');
+          }
+        }
+      }
+    </script>
+
+    <script src="https://static.zdassets.com/answer_bot_embeddable/answerBot.js"></script>
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css">
+
+  </head>
+  <body class="community-enabled">
+    <header class="header">
+      <div class="header-wrapper">
+        <div class="logo">
+          <a title="Casa" href="/hc/en-us">
+            <img src="img/logo_2sl.png" alt="Logotipo">
+          </a>
+        </div>
+        <div class="nav-wrapper">
+          <span class="icon-menu"></span>
+          <nav class="user-nav" id="user-nav" aria-expanded="false">
+            <a href="/hc/en-us/community/topics">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Minhas Atividades</font>
+              </font>
+            </a> 
+            <a class="submit-a-request" href="/hc/en-us/requests/new">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Assine Já</font>
+              </font>
+            </a>
+          </nav>
+          <a class="login" data-auth-action="signin" role="button" rel="nofollow" href="https://www.sexlog.com/login#76420e3e2ec10bca79d6bfcc6356354c">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Entrar</font>
+            </font>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero container">
+      <div class="header-inner">
+            <form role="search" class="search" data-search="" action="/hc/pt-br/search" accept-charset="UTF-8" method="get" style="width: 690px;">
+              <input name="utf8" type="hidden" value="✓">
+              <input type="search" name="query" id="query" placeholder="Pesquisa" aria-label="Pesquisa" class="js-focus-visible" data-focus-visible-added>
+              <input type="submit" name="commit" value="Pesquisa">
+            </form>
+            <div class="logo helpcenter-logo">
+                <a title="Página inicial" href="https://support.sexlog.com/hc/pt-br">
+                    <span>Central de</span>
+                    <span>Ajuda</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main role="main">
+      <div class="container">
+
+        <section class="home-page section knowledge-base">
+          <div class="video_article_block">
+            <section class="video-gallery">
+              <h1>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Principais tutoriais em vídeo</font>
+                </font>
+              </h1>
+              <div class="owl-carousel owl-loaded owl-drag">
+                <div class="owl-stage-outer">
+                  <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 522px;">
+
+                    <div class="owl-item active" style="width: 164px; margin-right: 10px;">
+                      <div class="item">
+                        <a href="#" title="Quais beneficios o assinante Sexlog possui" data-featherlight="<iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/watch?v=aCGS2dE02wc&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
+                          <img src="img/0 (3).PNG">
+                          <h3>
+                            <font style="vertical-align: inherit;">
+                              <font style="vertical-align: inherit;">Ser um assinante</font>
+                            </font>
+                          </h3>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="owl-item active" style="width: 164px; margin-right: 10px;">
+                      <div class="item">
+                        <a href="#" title="Visão geral do Zendesk" data-featherlight="<iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/watch?v=qfMDt7pke6g&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
+                          <img src="img/0.PNG">
+                          <h3>
+                            <font style="vertical-align: inherit;">
+                              <font style="vertical-align: inherit;">Como Se Exibir na Livecam</font>
+                            </font>
+                          </h3>
+                        </a>
+                      </div>
+                    </div>
+                    
+                    <div class="owl-item active" style="width: 164px; margin-right: 10px;">
+                      <div class="item">
+                        <a href="#" title="Este é o Sexlog" data-featherlight="<iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/watch?v=EkiZGsYIZpA&feature=youtu.be&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
+                          <img src="img/0 (2).PNG">
+                          <h3>
+                            <font style="vertical-align: inherit;">
+                              <font style="vertical-align: inherit;">Este é o Sexlog</font>
+                            </font>
+                          </h3>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="owl-nav disabled">
+                  <div class="owl-prev disabled">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">prev</font>
+                    </font>
+                  </div>
+                  <div class="owl-next disabled">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Próximo</font>
+                    </font>
+                  </div>
+                </div>
+                <div class="owl-dots disabled">
+                  <div class="owl-dot active">
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          
+          <section class="custom-blocks blocks">
+            <ul class="blocks-list">
+              <li class="blocks-item custom">
+                <a href="/hc/en-us/sections/360001981520" class="blocks-item-link" title="Como Usar o Sexlog">
+                  <span class="block-icon-wrapper">
+                    <img src="img/comoUsar.png" alt=" Como Usar o Sexlog " class="block-image block-icon">
+                    <img src="img/comoUsar.png" alt=" Como Usar o Sexlog " class="block-image block-hover-icon"> 
+                  </span>
+                  <h2 class="blocks-item-title">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Como Usar o Sexlog</font>
+                    </font>
+                  </h2>
+                </a>
+              </li>
+            
+              <li class="blocks-item custom">
+                <a href="/hc/en-us/requests/new" class="blocks-item-link" title="Suporte ao cliente">
+                  <span class="block-icon-wrapper"> 
+                    <img src="img/suporte.png" alt=" Suporte ao cliente " class="block-image block-icon">
+                    <img src="img/suporte.png" alt=" Suporte ao cliente " class="block-image block-hover-icon"> 
+                  </span>
+                  <div class="blocks-item-description-wrapper">
+                    <h2 class="blocks-item-title">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Suporte ao cliente</font>
+                      </font>
+                    </h2>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blocks-item custom">
+                <a href="/hc/en-us/sections/360001981520" class="blocks-item-link" title="Banco de Ideias">
+                  <span class="block-icon-wrapper">
+                    <img src="img/comunidade.png" alt=" Banco de Ideias " class="block-image block-icon">
+                    <img src="img/comunidade.png" alt=" Banco de Ideias " class="block-image block-hover-icon"> 
+                  </span>
+                  <div class="blocks-item-description-wrapper">
+                    <h2 class="blocks-item-title">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Banco de Ideias</font>
+                      </font>
+                    </h2>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="blocks-item custom">
+                <a href="/hc/en-us/requests/new" class="blocks-item-link" title="Telefones">
+                  <span class="block-icon-wrapper">
+                    <img src="img/telephone.png" alt="Telefones" class="block-image block-icon">
+                    <img src="img/telephone.png" alt="Telefones" class="block-image block-hover-icon"> 
+                  </span>
+                  <div class="blocks-item-description-wrapper">
+                    <h2 class="blocks-item-title">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Telefones</font>
+                      </font>
+                    </h2>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blocks-item custom">
+                <a href="/hc/en-us/requests/new" class="blocks-item-link" title="Chat">
+                  <span class="block-icon-wrapper">
+                    <img src="#" alt="Chat" class="block-image block-icon">
+                    <img src="#" alt="Chat" class="block-image block-hover-icon"> 
+                  </span>
+                  <div class="blocks-item-description-wrapper">
+                    <h2 class="blocks-item-title">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Chat</font>
+                      </font>
+                    </h2>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </section>
+
+        <section class="home-page section knowledge-base">
+          <section class="section articles">
+            <h1>
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Artigos Promovidos</font>
+              </font>
+            </h1>
+            <ul class="article-list promoted-articles">
+              <li class="promoted-articles-item">
+                <a href="https://support.sexlog.com/hc/pt-br/articles/360043777711-O-Sexlog-alerta-Cuidado-com-sites-suspeitos-" title="O Sexlog alerta: Cuidado com sites suspeitos.">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">O Sexlog alerta: Cuidado com sites suspeitos.</font>
+                  </font>
+                </a>
+              </li>
+      
+              <li class="promoted-articles-item">
+                <a href="https://support.sexlog.com/hc/pt-br/articles/360041415251-Pague-seu-boleto-sem-sair-de-casa-" title="Pague seu boleto sem sair de casa!">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Pague seu boleto sem sair de casa!</font>
+                  </font>
+                </a>
+              </li>
+      
+              <li class="promoted-articles-item">
+                <a href="https://support.sexlog.com/hc/pt-br/articles/360040406372-Atendimento-via-Whatsapp" title="Atendimento via Whatsapp">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Atendimento via Whatsapp</font>
+                  </font>
+                </a>
+              </li>  
+            </ul>
+          </section>
+
+          <script>
+            setTimeout(function () {
+              var recentActivityLength = $('ul.recent-activity-list').children();
+              if (!recentActivityLength.length) {
+                $('section.activity').hide();
+              }
+            }, 1000);
+          </script>
+        </section>
+
+      </div>
+    </main>
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-inner">
+        <div class="footer-links">
+          <h3 title="Sobre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sexlog</font></font></h3>
+          <ul class="footer-links-list">
+            <li class="footer-link-item">
+              <a href="#" title="Companhia"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                sobre
+              </font></font></a>
+            </li>
+            <li class="footer-link-item">
+              <a href="#" title="Carreira"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Imprensa
+              </font></font></a>
+            </li>
+            <li class="footer-link-item">
+              <a href="#" title="Redação"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Segurança e privacidade
+              </font></font></a>
+            </li>
+            <li class="footer-link-item">
+              <a href="#" title="Parceiros"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Termos de uso
+              </font></font></a>
+            </li>
+            <li class="footer-link-item">
+              <a href="#" title="Inovações"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Trabalhe conosco
+              </font></font></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h3 title="produtos"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Minha Conta</font></font></h3>
+          <ul class="footer-links-list">
+            <li class="footer-link-item">
+              <a href="#" title="Celulares"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Configurações
+              </font></font></a>
+            </li>
+            <li class="footer-link-item">
+              <a href="#" title="Comprimidos"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Minha assinatura
+              </font></font></a>
+            </li>
+            <li class="footer-link-item">
+              <a href="#" title="Máquinas fotográficas"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Meus tokens
+              </font></font></a>
+            </li>
+            <li class="footer-link-item">
+              <a href="#" title="Armazenamento de memória"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Minha segurança e privacidade
+              </font></font></a>
+            </li>
+            <li class="footer-link-item">
+              <a href="#" title="Eletrodomésticos"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Bloquear / Excluir conta
+              </font></font></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h3 title="Recursos"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Central de Ajuda</font></font></h3>
+          <ul class="footer-links-list">
+            <li class="footer-link-item">
+              <a href="#" title="Downloads e Manuais"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Enviar uma solicitação
+              </font></font></a>
+            </li>
+            <li class="footer-link-item">
+              <a href="#" title="Artigos"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                dicas do Sexlog
+              </font></font></a>
+            </li>
+            <li class="footer-link-item">
+              <a href="#" title="Acessibilidade"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Banco de Ideias
+              </font></font></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-inner">
+        <div>
+          <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Copyright ©
+            </font></font><span id="year"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2020 </font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font><font style="vertical-align: inherit;">Todos os direitos reservados.</font></font></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    var newDate = new Date();
+    var year = newDate.getFullYear();
+    $('#year').html(year);
+  </script>
+
+  </body>
+</html>
