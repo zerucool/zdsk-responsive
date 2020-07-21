@@ -1,0 +1,35 @@
+Copyright (c) 2019 Allies Interactive Services Private Limited (https://www.diziana.com/, https://www.zendesktheme.com/, https://www.alliesinteractive.com/)
+
+Permission is hereby granted, to any person obtaining a copy of this software and associated documentation files (the "Software”), to deal in the Software with following grants, restrictions and limitations:
+
+ The Single-Site License grants you a non-exclusive, one-time-transferable-per-license right to make use of theme, subject to the following terms, conditions and restrictions:
+
+    •    The Single Use License gives you, the purchaser, the ability to use the theme on an ongoing, non-exclusive basis.
+    •    You are allowed to use the theme to create one single End Product for yourself or for one client (a “single application”), and the End Product can be distributed for free.
+    ◦    The “End Product” is the final customized version/implementation of the theme that you will use or sell to a client.
+
+In other words...
+You can use a Paid Theme for only one person/business/project. If you want to use the purchased theme for a different client or project then you will have to purchase another license (by purchasing the theme again). The theme can be customized to any degree (adding, altering or removing text, images, graphics, layout, design, etc) to fit your project's needs. 
+
+What you can do with it 
+
+    •    You can create one End Product for a client, and after you’re done, you can transfer it over to the client for any fee. This license is then transferred to the client.
+    •    You can modify this theme and manipulate it. The resulting works are subject to this license. This means no matter how much you modified a site that was based on this theme, the resulting work is still subject to this license.
+    •    You can download the theme and use it without attributing back to Diziana. 
+
+In other words...
+You can do anything to a theme and use it for one project or sell it to one person/business. You can also purchase a new license if you want to use a newly-purchased or customized theme for another person/business/project. 
+
+Miscellaneous info
+    •    Diziana retains ownership of the theme but grants you the license on the terms above. This license is between the Diziana  and you. 
+    •    If a breach in this license is discovered, the Diziana may revoke the license, and take legal actions. 
+
+ 
+
+- The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ 
+We use some images (licensed under creative-commons) for demo purposes or as placeholders. The copyright of all those images belongs to their respective owners. A list of such images along with link to original image, and name of their authors is available at https://www.diziana.com/pages/image-credits .
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For any questions/clarifications, please get in touch with us at info@allies.co.in.

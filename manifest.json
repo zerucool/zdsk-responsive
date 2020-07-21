@@ -1,0 +1,707 @@
+{
+  "name": "Diziana Voniss Theme (3.1.6)",
+  "author": "Diziana",
+  "version": "3.1.6",
+  "api_version": 1,
+  "default_locale": "en-us",
+  "settings": [
+    {
+      "label": "colors_group_label",
+      "variables": [
+        {
+          "identifier": "brand_color",
+          "type": "color",
+          "description": "brand_color_description",
+          "label": "brand_color_label",
+          "value": "#35a479"
+        },
+        {
+          "identifier": "brand_text_color",
+          "type": "color",
+          "description": "brand_text_color_description",
+          "label": "brand_text_color_label",
+          "value": "#ffffff"
+        },
+        {
+          "identifier": "text_color",
+          "type": "color",
+          "description": "text_color_description",
+          "label": "text_color_label",
+          "value": "#2e2e2e"
+        },
+        {
+          "identifier": "link_color",
+          "type": "color",
+          "description": "link_color_description",
+          "label": "link_color_label",
+          "value": "#35a479"
+        },
+        {
+          "identifier": "background_color",
+          "type": "color",
+          "description": "background_color_description",
+          "label": "background_color_label",
+          "value": "#FFFFFF"
+        }
+      ]
+    },
+    {
+      "label": "header_footer_group_label",
+      "variables": [
+        {
+          "identifier": "minimal_header",
+          "type": "checkbox",
+          "description": "minimal_header_description",
+          "label": "minimal_header_label",
+          "value": true
+        },
+        {
+          "identifier": "header_background_color",
+          "type": "color",
+          "description": "header_background_color_description",
+          "label": "header_background_color_label",
+          "value": "#3b4742"
+        },
+        {
+          "identifier": "header_text_color",
+          "type": "color",
+          "description": "header_text_color_description",
+          "label": "header_text_color_label",
+          "value": "#FFFFFF"
+        },
+        {
+          "identifier": "minimal_footer",
+          "type": "checkbox",
+          "description": "minimal_footer_description",
+          "label": "minimal_footer_label",
+          "value": true
+        },
+        {
+          "identifier": "footer_background_color",
+          "type": "color",
+          "description": "footer_background_color_description",
+          "label": "footer_background_color_label",
+          "value": "#2e2e2e"
+        },
+        {
+          "identifier": "footer_text_color",
+          "type": "color",
+          "description": "footer_text_color_description",
+          "label": "footer_text_color_label",
+          "value": "#FFFFFF"
+        }
+      ]
+    },
+    {
+      "label": "fonts_group_label",
+      "variables": [
+        {
+          "identifier": "heading_font",
+          "type": "list",
+          "description": "heading_font_description",
+          "label": "heading_font_label",
+          "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+          "options": [
+            {
+              "label": "System",
+              "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            },
+            {
+              "label": "Arial",
+              "value": "Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            },
+            {
+              "label": "Arial Black",
+              "value": "'Arial Black', Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            },
+            {
+              "label": "Baskerville",
+              "value": "Baskerville, 'Times New Roman', Times, serif"
+            },
+            {
+              "label": "Century Gothic",
+              "value": "'Century Gothic', AppleGothic, sans-serif"
+            },
+            {
+              "label": "Copperplate Light",
+              "value": "'Copperplate Light', 'Copperplate Gothic Light', serif"
+            },
+            {
+              "label": "Courier New",
+              "value": "'Courier New', Courier, monospace"
+            },
+            {
+              "label": "Futura",
+              "value": "Futura, 'Century Gothic', AppleGothic, sans-serif"
+            },
+            {
+              "label": "Garamond",
+              "value": "Garamond, 'Hoefler Text', Times New Roman, Times, serif"
+            },
+            {
+              "label": "Geneva",
+              "value": "Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif"
+            },
+            {
+              "label": "Georgia",
+              "value": "Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif"
+            },
+            {
+              "label": "Helvetica",
+              "value": "Helvetica, Arial, sans-serif"
+            },
+            {
+              "label": "Helvetica Neue",
+              "value": "'Helvetica Neue', Arial, Helvetica, sans-serif"
+            },
+            {
+              "label": "Impact",
+              "value": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
+            },
+            {
+              "label": "Lucida Grande",
+              "value": "'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
+            },
+            {
+              "label": "Trebuchet MS",
+              "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
+            }
+          ]
+        },
+        {
+          "identifier": "text_font",
+          "type": "list",
+          "description": "text_font_description",
+          "label": "text_font_label",
+          "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+          "options": [
+            {
+              "label": "System",
+              "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+            },
+            {
+              "label": "Arial",
+              "value": "Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            },
+            {
+              "label": "Arial Black",
+              "value": "'Arial Black', Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            },
+            {
+              "label": "Baskerville",
+              "value": "Baskerville, 'Times New Roman', Times, serif"
+            },
+            {
+              "label": "Century Gothic",
+              "value": "'Century Gothic', AppleGothic, sans-serif"
+            },
+            {
+              "label": "Copperplate Light",
+              "value": "'Copperplate Light', 'Copperplate Gothic Light', serif"
+            },
+            {
+              "label": "Courier New",
+              "value": "'Courier New', Courier, monospace"
+            },
+            {
+              "label": "Futura",
+              "value": "Futura, 'Century Gothic', AppleGothic, sans-serif"
+            },
+            {
+              "label": "Garamond",
+              "value": "Garamond, 'Hoefler Text', Times New Roman, Times, serif"
+            },
+            {
+              "label": "Geneva",
+              "value": "Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif"
+            },
+            {
+              "label": "Georgia",
+              "value": "Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif"
+            },
+            {
+              "label": "Helvetica",
+              "value": "Helvetica, Arial, sans-serif"
+            },
+            {
+              "label": "Helvetica Neue",
+              "value": "'Helvetica Neue', Arial, Helvetica, sans-serif"
+            },
+            {
+              "label": "Impact",
+              "value": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
+            },
+            {
+              "label": "Lucida Grande",
+              "value": "'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
+            },
+            {
+              "label": "Trebuchet MS",
+              "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "brand_group_label",
+      "variables": [
+        {
+          "identifier": "logo",
+          "type": "file",
+          "description": "logo_description",
+          "label": "logo_label"
+        },
+        {
+          "identifier": "favicon",
+          "type": "file",
+          "description": "favicon_description",
+          "label": "favicon_label"
+        }
+      ]
+    },
+    {
+      "label": "images_group_label",
+      "variables": [
+        {
+          "identifier": "homepage_background_image",
+          "type": "file",
+          "description": "homepage_background_image_description",
+          "label": "homepage_background_image_label"
+        },
+        {
+          "identifier": "community_background_image",
+          "type": "file",
+          "description": "community_background_image_description",
+          "label": "community_background_image_label"
+        },
+        {
+          "identifier": "error_image",
+          "type": "file",
+          "description": "error_image_description",
+          "label": "error_image_label"
+        }
+      ]
+    },
+    {
+      "label": "placeholder_group_label",
+      "variables": [
+        {
+          "identifier": "search_placeholder_text",
+          "type": "text",
+          "description": "search_placeholder_text_description",
+          "label": "search_placeholder_text_label",
+          "value": "Search our Help Center"
+        },
+        {
+          "identifier": "search_placeholder_text_dc",
+          "type": "text",
+          "description": "search_placeholder_text_dc_description",
+          "label": "search_placeholder_text_dc_label",
+          "value": "NONE"
+        }
+      ]
+    },
+    {
+      "label": "homepage_blocks_group_label",
+      "variables": [
+        {
+          "identifier": "category_block_visibility",
+          "type": "checkbox",
+          "description": "category_block_visibility_description",
+          "label": "category_block_visibility_label",
+          "value": false
+        },
+        {
+          "identifier": "custom_block_visibility",
+          "type": "checkbox",
+          "description": "custom_block_visibility_description",
+          "label": "custom_block_visibility_label",
+          "value": true
+        },
+        {
+          "identifier": "show_knowledge_base_tree",
+          "type": "checkbox",
+          "description": "knowledge_base_visibility_description",
+          "label": "knowledge_base_visibility_label",
+          "value": false
+        }
+      ]
+    },
+    {
+      "label": "homepage_first_block_group_label",
+      "variables": [
+        {
+          "identifier": "first_block_icon",
+          "type": "file",
+          "description": "block_icon_description",
+          "label": "block_icon_label"
+        },
+        {
+          "identifier": "first_block_hover_icon",
+          "type": "file",
+          "description": "block_hover_icon_description",
+          "label": "block_hover_icon_label"
+        },
+        {
+          "identifier": "first_block_font_icon",
+          "type": "text",
+          "description": "block_font_icon_description",
+          "label": "block_font_icon_label",
+          "value": "NONE"
+        },
+        {
+          "identifier": "first_block_title",
+          "type": "text",
+          "description": "block_title_description",
+          "label": "block_title_label",
+          "value": "FAQ"
+        },
+        {
+          "identifier": "first_block_title_dc",
+          "type": "text",
+          "description": "block_title_dc_description",
+          "label": "block_title_dc_label",
+          "value": "NONE"
+        },
+        {
+          "identifier": "first_block_url",
+          "type": "text",
+          "description": "block_url_description",
+          "label": "block_url_label",
+          "value": "#"
+        }
+      ]
+    },
+    {
+      "label": "homepage_second_block_group_label",
+      "variables": [
+        {
+          "identifier": "second_block_icon",
+          "type": "file",
+          "description": "block_icon_description",
+          "label": "block_icon_label"
+        },
+        {
+          "identifier": "second_block_hover_icon",
+          "type": "file",
+          "description": "block_hover_icon_description",
+          "label": "block_hover_icon_label"
+        },
+        {
+          "identifier": "second_block_font_icon",
+          "type": "text",
+          "description": "block_font_icon_description",
+          "label": "block_font_icon_label",
+          "value": "NONE"
+        },
+        {
+          "identifier": "second_block_title",
+          "type": "text",
+          "description": "block_title_description",
+          "label": "block_title_label",
+          "value": "Customer Support"
+        },
+        {
+          "identifier": "second_block_title_dc",
+          "type": "text",
+          "description": "block_title_dc_description",
+          "label": "block_title_dc_label",
+          "value": "NONE"
+        },
+        {
+          "identifier": "second_block_url",
+          "type": "text",
+          "description": "block_url_description",
+          "label": "block_url_label",
+          "value": "#"
+        }
+      ]
+    },
+    {
+      "label": "homepage_third_block_group_label",
+      "variables": [
+        {
+          "identifier": "third_block_icon",
+          "type": "file",
+          "description": "block_icon_description",
+          "label": "block_icon_label"
+        },
+        {
+          "identifier": "third_block_hover_icon",
+          "type": "file",
+          "description": "block_hover_icon_description",
+          "label": "block_hover_icon_label"
+        },
+        {
+          "identifier": "third_block_font_icon",
+          "type": "text",
+          "description": "block_font_icon_description",
+          "label": "block_font_icon_label",
+          "value": "NONE"
+        },
+        {
+          "identifier": "third_block_title",
+          "type": "text",
+          "description": "block_title_description",
+          "label": "block_title_label",
+          "value": "Video Tutorial"
+        },
+        {
+          "identifier": "third_block_title_dc",
+          "type": "text",
+          "description": "block_title_dc_description",
+          "label": "block_title_dc_label",
+          "value": "NONE"
+        },
+        {
+          "identifier": "third_block_url",
+          "type": "text",
+          "description": "block_url_description",
+          "label": "block_url_label",
+          "value": "#"
+        }
+      ]
+    },
+    {
+      "label": "homepage_fourth_block_group_label",
+      "variables": [
+        {
+          "identifier": "fourth_block_icon",
+          "type": "file",
+          "description": "block_icon_description",
+          "label": "block_icon_label"
+        },
+        {
+          "identifier": "fourth_block_hover_icon",
+          "type": "file",
+          "description": "block_hover_icon_description",
+          "label": "block_hover_icon_label"
+        },
+        {
+          "identifier": "fourth_block_font_icon",
+          "type": "text",
+          "description": "block_font_icon_description",
+          "label": "block_font_icon_label",
+          "value": "NONE"
+        },
+        {
+          "identifier": "fourth_block_title",
+          "type": "text",
+          "description": "block_title_description",
+          "label": "block_title_label",
+          "value": "Centers"
+        },
+        {
+          "identifier": "fourth_block_title_dc",
+          "type": "text",
+          "description": "block_title_dc_description",
+          "label": "block_title_dc_label",
+          "value": "NONE"
+        },
+        {
+          "identifier": "fourth_block_url",
+          "type": "text",
+          "description": "block_url_description",
+          "label": "block_url_label",
+          "value": "#"
+        }
+      ]
+    },
+    {
+      "label": "popular_video_group_label",
+      "variables": [
+        {
+          "identifier": "popular_video_block_visibility",
+          "type": "checkbox",
+          "description": "block_visibility_description",
+          "label": "block_visibility_label",
+          "value": true
+        },
+        {
+          "identifier": "popular_video_block_title",
+          "type": "text",
+          "description": "video_block_title_description",
+          "label": "block_title_label",
+          "value": "Get help from some video tutorials"
+        },
+        {
+          "identifier": "popular_video_block_title_dc",
+          "type": "text",
+          "description": "block_title_dc_description",
+          "label": "block_title_dc_label",
+          "value": "NONE"
+        },
+        {
+          "identifier": "first_pop_video_title",
+          "type": "text",
+          "description": "first_pop_video_title_description",
+          "label": "first_pop_video_title_label",
+          "value": "How to use zendesk for customer service!"
+        },
+        {
+          "identifier": "first_pop_video_title_dc",
+          "type": "text",
+          "description": "first_pop_video_title_dc_description",
+          "label": "first_pop_video_title_dc_label",
+          "value": "NONE"
+        },
+        {
+          "identifier": "first_pop_video_id",
+          "type": "text",
+          "description": "first_pop_video_id_description",
+          "label": "first_pop_video_id_label",
+          "value": "ZabxYNjldnI"
+        },
+        {
+          "identifier": "second_pop_video_title",
+          "type": "text",
+          "description": "second_pop_video_title_description",
+          "label": "second_pop_video_title_label",
+          "value": "Zendesk Overview"
+        },
+        {
+          "identifier": "second_pop_video_title_dc",
+          "type": "text",
+          "description": "second_pop_video_title_dc_description",
+          "label": "second_pop_video_title_dc_label",
+          "value": "NONE"
+        },
+        {
+          "identifier": "second_pop_video_id",
+          "type": "text",
+          "description": "second_pop_video_id_description",
+          "label": "second_pop_video_id_label",
+          "value": "gPHorD8Aot4"
+        },
+        {
+          "identifier": "third_pop_video_title",
+          "type": "text",
+          "description": "third_pop_video_title_description",
+          "label": "third_pop_video_title_label",
+          "value": "This is Zendesk"
+        },
+        {
+          "identifier": "third_pop_video_title_dc",
+          "type": "text",
+          "description": "third_pop_video_title_dc_description",
+          "label": "third_pop_video_title_dc_label",
+          "value": "NONE"
+        },
+        {
+          "identifier": "third_pop_video_id",
+          "type": "text",
+          "description": "third_pop_video_id_description",
+          "label": "third_pop_video_id_label",
+          "value": "l0uaSU6IVN4"
+        }
+      ]
+    },
+    {
+      "label": "article_template_group_label",
+      "variables": [
+        {
+          "identifier": "comment_block_visibility",
+          "type": "checkbox",
+          "description": "block_visibility_description",
+          "label": "comment_block_visibility_label",
+          "value": true
+        },
+        {
+          "identifier": "sidebar_block_visibility",
+          "type": "checkbox",
+          "description": "block_visibility_description",
+          "label": "sidebar_block_visibility_label",
+          "value": true
+        },
+        {
+          "identifier": "show_follow_article",
+          "type": "checkbox",
+          "description": "follow_article_description",
+          "label": "follow_article_label",
+          "value": true
+      },
+        {
+          "identifier": "meta_block_visibility",
+          "type": "checkbox",
+          "description": "block_visibility_description",
+          "label": "meta_block_visibility_label",
+          "value": true
+        },
+        {
+          "identifier": "article_share_block_visibility",
+          "type": "checkbox",
+          "description": "block_visibility_description",
+          "label": "article_share_block_visibility_label",
+          "value": true
+        },
+        {
+          "identifier": "show_recently_viewed_articles",
+          "type": "checkbox",
+          "description": "recently_viewed_articles_description",
+          "label": "recently_viewed_articles_label",
+          "value": true
+        },
+        {
+          "identifier": "show_related_articles",
+          "type": "checkbox",
+          "description": "related_articles_description",
+          "label": "related_articles_label",
+          "value": true
+        }
+      ]
+    },
+    {
+      "label": "searchsidebar_label",
+      "variables": [
+        {
+          "identifier": "search_sidebar",
+          "type": "checkbox",
+          "description": "search_sidebar_description",
+          "label": "search_sidebar_label",
+          "value": true
+        }
+      ]
+      },
+    {
+      "label": "social_media_group",
+      "variables": [
+        {
+          "identifier": "twitter_link",
+          "type": "text",
+          "description": "twitter_link_description",
+          "label": "twitter_link_label",
+          "value": "#"
+        },
+        {
+          "identifier": "facebook_link",
+          "type": "text",
+          "description": "facebook_link_description",
+          "label": "facebook_link_label",
+          "value": "#"
+        },
+        {
+          "identifier": "youtube_link",
+          "type": "text",
+          "description": "youtube_link_description",
+          "label": "youtube_link_label",
+          "value": "#"
+        },
+        {
+          "identifier": "linkedin_link",
+          "type": "text",
+          "description": "linkedin_link_description",
+          "label": "linkedin_link_label",
+          "value": "#"
+        },
+        {
+          "identifier": "instagram_link",
+          "type": "text",
+          "description": "instagram_link_description",
+          "label": "instagram_link_label",
+          "value": "#"
+        }
+      ]
+    }
+  ]
+}
